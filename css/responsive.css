@@ -1,0 +1,154 @@
+/*Media queary*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) { 
+
+  /* Hero Section */
+  .hero .container{
+   gap: 30px;
+  }
+  .hero-content {
+    width: 60%;
+  }
+  .hero-img img{
+    width: 220px;
+    height: 220px;
+  }
+  .hero-img::before {
+    width: 220px;
+    height: 220px;
+  }
+  .hero-content h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  .hero-content h4 {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .hero-content p {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .hero-content p br{
+    display: none;
+  }
+
+  /*About*/
+  .about-image img {
+    max-width: 220px;
+    height: 220px;
+  }
+
+  /*----- contact -----*/
+  .contact-heading p{
+    width: 100%;
+  }
+
+}
+
+
+@media only screen and (max-width: 768px) { 
+    /* Styles for small smartphones */
+    nav ul{
+      gap: 2rem;
+    }
+    /* Hero Section */
+    .hero {
+      height: 100%;
+      max-width: 100%;
+      padding: 5rem 0;
+      margin: 0 auto;
+    }
+    .hero .container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+    .hero .container::before{
+      bottom: -60px;
+      height: 60%;
+      background-size: contain;
+    }
+    .hero-content {
+      width: 90%;
+    }
+    .hero-img img {
+        width: 250px;
+        height: 250px;
+    }
+    .hero-content h2 {
+      font-size: 2rem;
+      margin-bottom: 0;
+    }
+    .hero-content h4 {
+      font-size: 20px;
+      margin: 0;
+    }
+    .hero-content p {
+      font-size: 14px;
+      font-weight: 300;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    .hero-content p br{
+      display: none;
+    }
+
+    /* About Section */
+    .about h2{
+      text-align: start;
+      margin-bottom: 20px;
+    }
+    .about-content {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .about-image img {
+      max-width: 200px;
+      height: 200px;
+    }
+    /* Portfolio Section */
+    .portfolio-item {
+      height: 80vh;
+    }
+
+    
+    /*----- contact -----*/
+    .contact-wrapper{
+      flex-direction: column;
+      gap: 55px;
+    }
+    .contact-heading p{
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .social-links {
+      margin-top: 25px;
+    }
+    .contact-info,
+    form {
+      width: 100%;
+    }
+    form button{
+    width: 100%;
+    margin: 0;
+    }
+  }
+
+/*----- mobile phone -----*/
+@media (max-width: 575px){
+  .main-menu {
+    display: none;
+  }
+  #navPhone{
+        display: block;
+  }
+  .menu-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+}
+ 
