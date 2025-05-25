@@ -306,7 +306,6 @@ nav ul li .home{
 /* About Section */
 .about {
     padding: 5rem 0;
-    background-color: #2A2C39;
 }
 .about h2{
     margin-bottom: 35px;
@@ -371,7 +370,6 @@ nav ul li .home{
 /* Portfolio Section */
 .portfolio {
     padding: 5rem 0;
-    background-color: #2A2C39;
 }
 .portfolio h2 {
    margin-bottom: 20px;
