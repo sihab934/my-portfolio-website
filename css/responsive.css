@@ -109,6 +109,11 @@
       max-width: 200px;
       height: 200px;
     }
+
+    /*----- skills -----*/
+    .skill-item{
+      padding: 2rem 1rem;
+    }
     /* Portfolio Section */
     .portfolio-item {
       height: 80vh;
