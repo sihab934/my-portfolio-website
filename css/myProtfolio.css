@@ -280,6 +280,7 @@ nav ul li .home{
     transition: background 0.3s ease;
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 .btn::before{
@@ -287,8 +288,6 @@ nav ul li .home{
     width: 100%;
     height: 100%;
     background: #FFFFFF;
-    color: #000000;
-    border-radius: 5px;
     position: absolute;
     left: 0;
     top: 0;
@@ -442,7 +441,7 @@ nav ul li .home{
     font-size: 1rem;
     margin-bottom: 1rem;
 }
-.item-7 .btn{
+.item-8 .btn{
     padding: 8px 15px;
     margin-bottom: 10px;
 }
