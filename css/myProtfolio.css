@@ -383,13 +383,13 @@ nav ul li .home{
 }
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
 }
 
 .skill-item {
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -424,7 +424,7 @@ nav ul li .home{
 
 .portfolio-item {
     position: relative;
-    height: 80vh;
+    max-height: 80vh;
     overflow: hidden;
     border-radius: 10px;
 }
