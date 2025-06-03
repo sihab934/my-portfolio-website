@@ -202,9 +202,9 @@ nav ul li .home{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../images/hero-bg.jpg);
+    /*background-image: url(../images/hero-bg.jpg);
     background-position: center;
-    background-size: cover; 
+    background-size: cover; */
     padding: 60px 0px;
     position: relative;
 }
